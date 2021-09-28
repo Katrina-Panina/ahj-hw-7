@@ -1,0 +1,29 @@
+{
+  "name": "ahj-hw-7",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": "14.16.1",
+    "npm": "6.14.12"
+  },
+  "scripts": {
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": "https://github.com/Katrina-Panina/ahj-hw-7.git",
+  "author": "Katerina Panina <khomenko.kat@mail.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Katrina-Panina/ahj-hw-7/issues"
+  },
+  "homepage": "https://github.com/Katrina-Panina/ahj-hw-7#readme",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "koa": "^2.13.3",
+    "koa-body": "^4.2.0",
+    "node-unique-id-generator": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
